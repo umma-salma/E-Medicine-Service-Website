@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a,
+button {
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background: none;
+  cursor: pointer;
+}
+
+input {
+  -webkit-appearance: none;
+}
+
+
+label {
+  cursor: pointer;
+}
+
+button,
+input {
+  border: none;
+}
+
+body {
+  font: 16px/1.5 "Lato", sans-serif;
+}
+
+
+.page-header {
+  height: 100%;
+  position: fixed;
+  width: 25%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  padding-top: 20px;
+  color: #dde9f8;
+  background: #242e42;
+}
+
+/*Logo*/
+.logo-name {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 2.1rem;
+    text-shadow: 1px 3px rgb(182, 164, 164);
+    text-decoration: none;
+    cursor: pointer;
+    display: inline;
+    margin-left: 15px;
+    margin-top: 25px;
+
+  }
+  .logo-name:hover{
+    text-decoration: none;
+    color: rgb(228, 214, 214);
+  }
+
+/*dashboard navbar*/
+
+.page-header nav {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+  
+  
+  .page-header .admin-menu {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-top: 20px;
+  }
+  
+  
+  .page-header .admin-menu li > * {
+    width: 100%;
+    padding: 12px 15px;
+    color: #fff;
+  }
+  
+  .page-header .admin-menu .menu-heading h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-size: 12px;
+    margin-top: 12px;
+    color: #7889a4;
+  }
+
+
+  .page-header .admin-menu a,
+  .page-header .admin-menu button {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+  }
+  
+  .page-header .admin-menu a:hover,
+  .page-header .admin-menu a:focus,
+  .page-header .admin-menu button:hover,
+  .page-header .admin-menu button:focus {
+    background: #1d2636;
+    color: #00b9eb;
+    outline: none;
+  }
+
+  .page-header .admin-menu a > span:hover
+  {
+    text-decoration: none;
+  }
+
+  .main-part
+  {
+    width: 70%;
+    padding-left:30%;
+    
+  }
+
+  .box1
+  {
+        margin: 20px;
+        border-radius: 25px;
+        background: #242e42;
+        padding: 20px; 
+        width: 200px;
+        height: 150px;  
+        color: white;
+        float: left;
+  }
+
+  
+  .box2
+  {
+        margin-top: 20px;
+        border-radius: 25px;
+        background: #242e42;
+        padding: 20px; 
+        width: 200px;
+        height: 150px;  
+        color: white;
+        float: right;
+  }
+  
+  
+  
